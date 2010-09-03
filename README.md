@@ -7,6 +7,7 @@ twupdate is a command line twitter update client that uses OAuth to connect to t
 * Fix "twupdate (LoadError)" when running twupdate binary from installed gem.
 * Support reading consumer and access credentials from ~/.twupdate file (require mode 600) instead of Mac OSX keychain.
 * Modify twupdate\_oauth\_setup to print instructions on how to put credentials in Mac OSX keychain or ~/.twupdate.
+* Improve error reporting when credentials are not found or incorrrect.
 * Finish documentation.
 
 # Install
